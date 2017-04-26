@@ -1,4 +1,4 @@
-Project: You Don't Know JavaScript Chapter 1 - "Phone Exercise"
+# Project: You Don't Know JavaScript Chapter 1 - "Phone Exercise"
 
 Requirements:
 
