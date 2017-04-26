@@ -2,6 +2,8 @@
 
 Requirements:
 
+To create a phone purchasing program as defined by the following conditions from Chapter 1 of YDKJS.
+
 "Write a program to calculate the total price of your phone purchase. You will keep purchasing phones (hint: loop!) until you run out of money in your bank account. You'll also buy accessories for each phone as long as your purchase amount is below your mental spending threshold.
 
 After you've calculated your purchase amount, add in the tax, then print out the calculated purchase amount, properly formatted.
