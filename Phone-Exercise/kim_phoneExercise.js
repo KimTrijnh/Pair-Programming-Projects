@@ -1,6 +1,6 @@
 /* At first, I had litte consfusion about the THRESHOLD ( why have to put THRESHOLD
 when we already have the spending limitation which is the bankbalance; so I tried to solve it my way. 
-I wanted to have the customer buy phones and then buy accessory after eachphone within his budget; the flow would be like this:
+I wanted to have the customer buy phones and then buy accessories after each phone within his budget; the flow would be like this:
 
 buying phone(1) ---checking-overbuy-or-not(2)---> buy accessory(3) ---checking-overbuy-or-not(2)--> back-to-step(1).
 (at checking points, if overbuying --> stop buying and return to customer the amount he is able to buy)
