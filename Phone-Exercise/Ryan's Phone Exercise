@@ -1,0 +1,39 @@
+#Ryan's Phone Exercise Solution
+
+const PHONE_PRICE = 24.95;
+const ACCESSORY_PRICE = 8.95;
+const TAX = 0.085;
+var bankaccount;
+var numOfPhones = 0;
+var numOfAccessories = 0;
+
+function AddTax(amt) {
+        amt = amt + (amt * TAX);
+        return amt;
+}
+
+function FormatPrice(amt) {
+        amt = amt.toFixed(2);
+        return amt;
+}
+        
+
+bankaccount = prompt("Enter how much money you have in your bank account today");
+
+while ( bankaccount >= (PHONE_PRICE + (PHONE_PRICE * TAX))) {
+            var amount = PHONE_PRICE;
+            amount = AddTax(amount);
+            bankaccount -= amount;
+            numOfPhones ++;
+        if (bankaccount >= (ACCESSORY_PRICE + (ACCESSORY_PRICE * TAX))) {
+            var amount = ACCESSORY_PRICE;
+            amount = AddTax(amount);
+            bankaccount -= amount;
+            numOfAccessories ++;
+        }
+      
+}
+
+console.log("You have purchased" + " " + numOfPhones + " phones and " + numOfAccessories + " accessories.");
+console.log("You have " + FormatPrice(bankaccount) + " left in your account");
+
